@@ -47,6 +47,10 @@ const Menu = withRouter(({history}) => (
             }}>Sign out</Button>
         </span>)
       }
+       <Link to="/adminlogin">
+            <Button>Admin Login
+            </Button>
+          </Link>
     </Toolbar>
   </AppBar>
 ))
